@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChyLeang</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">Lux.</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Cart</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-warning" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <h1>Don't stay hunger let's grab some.</h1>
+            <button class="btn download-btn btn-warning btn-lg" type="button">
+              <i class="fab fab-apple"></i> Call now
+            </button>
+            <button
+              class="btn download-btn btn-outline-light btn-lg"
+              type="button"
+            >
+              Contact
+            </button>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <img
+              class="title-img"
+              src="/featurelogo.png"
+              alt="burger-template"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="feature">
+      <div class="row">
+        <div class="feature-box col-lg-4 col-md-4 col-sm-12">
+          <img class="feature-img" src="/flash-sale.png" alt="" />
+          <h3>Discount 15%.</h3>
+          <p>You'll get 15% discount on every Tuseday and Friday.</p>
+        </div>
+        <div class="feature-box col-lg-4 col-md-4 col-sm-12">
+          <img class="feature-img" src="/credit-card.png" alt="" />
+          <h3>Easy to pay.</h3>
+          <p>We are accept yuor payments with both cash and credit-card</p>
+        </div>
+        <div class="feature-box col-lg-4 col-md-4 col-sm-12">
+          <img class="feature-img" src="/free-delivery.png" alt="" />
+          <h3>Free Delivery.</h3>
+          <p>We are free your delivery on every Monday.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="trending-menu">
+      <div class="row">
+        <div class="trendings-img col-lg-6 col-md-6 col-sm-12">
+          <img class="trending-menu-img" src="/luanchbox.png" alt="" />
+        </div>
+        <div class="trending-info col-lg-6 col-md-6 col-sm-12">
+          <h2 class="trending-name">Luxy Luanch Box's Set</h2>
+          <p>
+            Chickens, Chicken nuggets, Rice, Fries, Cheese burger, finished with
+            a Pepsi.
+          </p>
+          <br />
+          <h2>14.99$</h2>
+          <br />
+          <button class="btn btn-outline-warning" type="button">
+            Order Now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="list-order">
+      <h2>Popular Orders</h2>
+      <div class="row">
+        <div class="order col-lg-4 col-md-4 col-sm-6">
+          <img class="order-img" src="/chicken.png" alt="" />
+          <h3>Chicken Burger</h3>
+          <p>
+            A fry meaty chicken helping of all the reasons you love our burger.
+          </p>
+          <h2>2.99$</h2>
+          <button class="btn btn-warning" type="button">Add To Cart</button>
+        </div>
+
+        <div class="order col-lg-4 col-md-4 col-sm-6">
+          <img class="order-img" src="/doublebeef.png" alt="" />
+          <h3>Chicken Burger</h3>
+          <p>
+            A fry meaty chicken helping of all the reasons you love our burger.
+          </p>
+          <h2>2.99$</h2>
+          <button class="btn btn-warning" type="button">Add To Cart</button>
+        </div>
+
+        <div class="order col-lg-4 col-md-4 col-sm-6">
+          <img class="order-img" src="/hamandbeef.png" alt="" />
+          <h3>Chicken Burger</h3>
+          <p>
+            A fry meaty chicken helping of all the reasons you love our burger.
+          </p>
+          <h2>2.99$</h2>
+          <button class="btn btn-warning" type="button">Add To Cart</button>
+        </div>
+
+        <div class="order col-lg-4 col-md-4 col-sm-6">
+          <img class="order-img" src="/sweetchicken.png" alt="" />
+          <h3>Chicken Burger</h3>
+          <p>
+            A fry meaty chicken helping of all the reasons you love our burger.
+          </p>
+          <h2>2.99$</h2>
+          <button class="btn btn-warning" type="button">Add To Cart</button>
+        </div>
+
+        <div class="order col-lg-4 col-md-4 col-sm-6">
+          <img class="order-img" src="/fries.png" alt="" />
+          <h3>Chicken Burger</h3>
+          <p>
+            A fry meaty chicken helping of all the reasons you love our burger.
+          </p>
+          <h2>2.99$</h2>
+          <button class="btn btn-warning" type="button">Add To Cart</button>
+        </div>
+
+        <div class="order col-lg-4 col-md-4 col-sm-6">
+          <img class="order-img" src="/chickenbox.png" alt="" />
+          <h3>Chicken Burger</h3>
+          <p>
+            A fry meaty chicken helping of all the reasons you love our burger.
+          </p>
+          <h2>2.99$</h2>
+          <button class="btn btn-warning" type="button">Add To Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta">
+      <div class="cta-info">
+        <h3 class="cta-p">Get more easier by getting the App.</h3>
+        <button class="btn download-btn btn-warning btn-lg" type="button">
+          Download
+        </button>
+        <button class="btn download-btn btn-outline-light btn-lg" type="button">
+          Download
+        </button>
+        <p class="copyright">© Copyright Lux.</p>
+      </div>
+    </section>
+  </body>
+</html>
